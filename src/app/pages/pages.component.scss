@@ -1,0 +1,115 @@
+.navbar{
+    border-radius: 0px !important;
+    margin-bottom: 0px !important;
+    max-height: 64px !important;
+}
+.logo-image{
+    margin-right:10%;
+}
+.sales-div{
+    width:10%;
+}
+.greenBG_1{
+    background-color: #00A388 !important;
+    padding-top: 19%;
+    padding-bottom: 9%;
+    text-align: center;
+    margin-left: 1px;
+}
+.greenBG{
+    background-color: #00A33A !important;
+    padding-top: 19%;
+    padding-bottom: 9%;
+    text-align: center;
+    margin-left: 1px;
+}
+.redBG{
+    background-color: #ff0000 !important;
+    padding-top: 19%;
+    padding-bottom: 9%;
+    text-align: center;
+    margin-left: 1px;
+}
+.nav-item{
+    margin-left:4px;
+    margin-right:5px;
+}
+.nav-item:hover{
+    border-bottom: 2px solid #FFF;;
+}
+.li_redBG {
+    background-color: #990000 !important;
+}
+.nav-item a{
+    color:#FFF;
+}
+.pl-1-px{padding-left:1px;}
+.pr-1-px{padding-right:1px;}
+.pt-5-px{padding-top:5px;}
+.pb-5-px{padding-bottom:5px;}
+.fa-home{
+    font-size: 16px;
+    padding-right:10px;
+}
+.page-title{
+    font-size: 12px;
+    padding-right:10px;
+}
+.fa-chevron-right{
+    font-size: 14px;
+}
+.day-open-section{
+    text-align: right;
+    color: #FFF;
+}
+.day-open{
+    background-color: #666666;
+    border-radius: 6px;
+}
+.home-link{
+    font-size: 12px;
+    cursor: pointer;
+    // color:#666666;
+    
+    a{
+        padding: 8px 20px 8px 10px;
+        display: inline-block;
+        background-position: center right;
+        background-repeat: no-repeat;
+        font-size: 11px;
+        color: #666666;
+        background-image: url("http://restropos.in/beta/public/images/img/breadcrumb.png");
+    }
+
+    .icon-home {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        margin-top: 1px;
+        margin-right: .3em;
+        line-height: 14px;
+        vertical-align: text-top;
+        background-image: url("http://restropos.in/beta/public/images/img/glyphicons-halflings.png");
+        background-position: 14px 14px;
+        background-repeat: no-repeat;
+    }
+}
+.home-link:hover{
+    opacity: 0.8;
+}
+@media only screen and (max-width: 769px) {
+   .sales-div{display: none !important;}
+  }
+
+  .second-nav {
+    // margin-right: -11px !important;
+      li {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    position: relative;
+    padding: 6px 3px;
+    background: #2e363f;
+    border-left: 1px solid #363e48;
+      }
+  }

@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-md header-background navbar-dark fixed-top">
+    <img src="./assets/logo/logo.png" class="logo-image">
+        <div class="sales-div">
+            <div class="greenBG_1">
+                <p class="white-text font-12">Total Sale: <i class="fa fa-inr font-12" aria-hidden="true"></i>4645.63</p>
+            </div>
+        </div>
+        <div class="sales-div">
+            <div class="greenBG_1 greenBG">
+                <p class="white-text font-12">Settled: <i class="fa fa-inr font-12" aria-hidden="true"></i>1948</p>
+            </div>
+        </div>
+        <div class="sales-div">
+            <div class="redBG">
+                <p class="white-text font-12">Unsettled: <i class="fa fa-inr font-12" aria-hidden="true"></i>2697.25</p>
+            </div>
+        </div>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto second-nav">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contact-list">Home Delivery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contact-create">TakeAway</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/contact-create">Masters</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/contact-create">Reports</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/contact-create">Closing</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/contact-create">Profile</a>
+        </li>
+        <li class="nav-item li_redBG">
+            <a class="nav-link" routerLink="/contact-create">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<div class="row white-background pl-10-px pr-10-px pt-5-px pb-5-px ">
+    <div class="col-lg-10 home-link d-flex m-auto">
+        <i class="fa fa-home" aria-hidden="true"></i> 
+        <span class="page-title">Home&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+        
+        <!-- <a href="http://restropos.in/beta/home" title="" class="tip-bottom" data-original-title="Go to Home">
+		<i class="icon-home"></i> Home
+	</a> -->
+    </div>
+    <div class="col-lg-2 day-open-section">
+        <button type="button" class="day-open">Day Opened: 18-11-2020</button>
+    </div>
+</div>
+<router-outlet></router-outlet>
